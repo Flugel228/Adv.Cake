@@ -2,7 +2,12 @@
     "name": "imflu/adv.cake",
     "autoload": {
         "psr-4": {
-            "Imflu\\AdvCake\\": "src/"
+            "AdvCake\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "pst-4": {
+            "Tests\\": "tests/"
         }
     },
     "authors": [
@@ -11,5 +16,13 @@
             "email": "imflugel@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^8.3",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.10",
+        "phpunit/phpunit": "^11.0",
+        "squizlabs/php_codesniffer": "*"
+    }
 }
