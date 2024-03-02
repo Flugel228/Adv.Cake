@@ -1,0 +1,15 @@
+{
+    "name": "imflu/adv.cake",
+    "autoload": {
+        "psr-4": {
+            "Imflu\\AdvCake\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Flugel228",
+            "email": "imflugel@gmail.com"
+        }
+    ],
+    "require": {}
+}
